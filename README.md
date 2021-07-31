@@ -11,13 +11,23 @@ pip install boto3
 
 4) Add the following permission "AmazonS3FullAccess"
 
-5) After the creation of the user, you will need to configure his credentials locally as follow:
+5) After the creation of the user, you will need to configure his credentials in your locall machine as follow:
 ```
 touch ~/.aws/credentials
 ```
-6) open the file you created in the previous step and paste the following configuration, make sure to add your ACCESS_KEY_ID and SECRET_ACCESS_KEY of the user your created in step 2:
+6) Open the file you created in the previous step and paste the following configuration:
 ```
 [default]
 aws_access_key_id = YOUR_ACCESS_KEY_ID
 aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
+```
+7) Make sure to add your ACCESS_KEY_ID and SECRET_ACCESS_KEY of the new user
+
+8) Create another config file for configuring your region
+```
+touch ~/.aws/config
+```
+9) Download the script from the current repo to your machine and run it
+```
+python boto3_s3_connect.py
 ```
