@@ -1,5 +1,5 @@
-![python_boto3](https://user-images.githubusercontent.com/52320907/127744201-51dd1b60-6a89-4c9d-9f3c-b475a3576d18.png)
 # Python boto3 script for creating buckets on aws s3
+![python_boto3](https://user-images.githubusercontent.com/52320907/127744201-51dd1b60-6a89-4c9d-9f3c-b475a3576d18.png)
 ## instructions - how to run this python script
 1) First install boto3
 
